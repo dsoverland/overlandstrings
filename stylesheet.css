@@ -1,0 +1,271 @@
+body {
+text-align:center;
+background-image:url(images/background.jpg);}
+
+input, textarea, p, br, table, tr, td, div
+{font-family:verdana, arial, sans-serif;color:#003300;font-size:8pt;cursor:normal;line-height:19px;text-align:left;}
+
+hr {
+height:1px;
+color:#99ff99;
+border-style:dashed;
+}
+
+a:link {color:#000000;text-decoration:underline;}
+a:visited {color:#000000;text-decoration:underline;}
+a:hover {color:#003300;text-decoration:none;background-color:#ffffff;}
+a:active {color:#003300;text-decoration:none;background-color:#ffffff;}
+
+#container {
+text-align:left;
+width:750px;
+background:transparent;
+margin:auto;
+position:relative;
+}
+
+#image {
+position:relative;
+width:750px;
+margin-top:20px;
+margin-bottom:20px;
+padding-bottom:20px;
+background-image:url(images/background_image.jpg);
+text-align:center;
+}
+
+#content {
+clear:left;
+position:relative;
+width:663px;
+margin:auto;
+margin-top:-38px;
+margin-left:47px;
+z-index:1;
+}
+
+#tagline {
+clear:left;
+position:relative;
+margin-left:47px;
+margin-top:-20px;
+padding-bottom:10px;
+width:663px;
+margin-bottom:10px;
+font-size:8pt;
+font-family:verdana, arial, sans-serif;
+text-align:center;
+background-image:url(images/background_content.jpg);
+z-index:2;
+}
+
+table.content {
+width:663px;
+border:none;
+border-bottom-style:solid;
+border-bottom-color:#ffffff;
+border-bottom-width:3px;
+margin:0px;
+background-image:url(images/background_content.jpg);
+text-align:center;
+vertical-align:top;
+}
+
+td.content {
+width:633px;
+padding:20px;
+text-align:left;
+valign:top;
+padding-bottom:20px;
+}
+
+table.home {
+width:619px;
+border:none;
+padding:15px;
+background:transparent;
+text-align:center;
+}
+
+td.home {
+width:55%;
+border:none;
+padding:10px;
+background:transparent;
+text-align:left;
+}
+
+td.events {
+width:35%;
+border:none;
+border-left-style:dashed;
+border-color:#99ff99;
+border-width:1px;
+padding:10px;
+padding-left:20px;
+background:transparent;
+text-align:left;
+}
+
+table.contact {
+border:none;
+width:90%;
+}
+
+td.contact {
+padding:10px;
+}
+
+table.weekly {
+border:solid;
+padding:0px;
+background:transparent;
+text-align:center;
+border:none;
+}
+
+td.weekly {
+padding:5px;
+background:transparent;
+font-size:7pt;
+}
+
+td.weeklyspace {
+padding:10px;
+background:transparent;
+font-size:7pt;
+}
+
+td.weeklyteacher {
+padding:5px;
+padding-top:0px;
+padding-bottom:20px;
+background:transparent;
+font-weight:bold;
+border:0;
+font-size:9.5pt;
+text-align:center;
+}
+
+td.weeklybold {
+padding:5px;
+background:transparent;
+font-weight:bold;
+font-size:7pt;
+}
+
+td.weekly, td.weeklybold, td.fees {
+border-style:solid;
+border-width:1px;
+border-color:#ffffff;}
+
+td.fees {
+padding:20px;
+}
+
+td.yearly {
+padding:25px;
+}
+
+h1 {
+font-size:9.5pt;
+font-weight:bold;
+}
+
+a.bottom:link {color:#99ff99;text-decoration:none;}
+a.bottom:visited {color:#99ff99;text-decoration:none;}
+a.bottom:hover {color:#99ff99;text-decoration:underline;background:transparent;}
+a.bottom:active {color:#99ff99;text-decoration:underline;background:transparent;}
+
+div.bottom {
+color:#99ff99;
+text-align:center;
+font-size:7pt;
+}
+
+p.menu {
+text-align:center;
+padding-bottom:10px;
+}
+
+div.title {
+font-family:georgia;
+font-size:15pt;
+text-align:center;
+margin-bottom:30px;
+margin-top:30px;}
+
+#menu {
+position:relative;
+width:500px;
+margin:auto;
+margin-top:-84px;
+margin-left:73px;
+margin-bottom:42px;
+padding-bottom:30px;
+background:transparent;
+font-size:8pt;
+line-height:12px;
+z-index:3;
+}
+
+#nav a {
+font-weight: bold;
+color:#003300;
+text-decoration: none;
+}
+
+#nav li li a {
+display: block;
+font-weight: normal;
+color: #060;
+padding: 0.2em 5px;
+}
+
+#nav li li a:hover {
+padding: 0.2em 5px;
+border:none;
+}
+
+ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+li {
+float: left;
+position: relative;
+text-align: center;
+cursor: default;
+background-image:url(images/background_menutop.jpg);
+}
+
+li ul {
+display: none;
+position: absolute; 
+top: 100%;
+left: 0;
+font-weight: normal;
+background: url(images/background_menu.jpg);
+padding: 0.5em 0 1em 0;
+width:115px;
+border-style:solid;
+border-width:1px;
+border-color:#ffffff;
+}
+
+li > ul {
+top: auto;
+left: auto;
+}
+
+li li {
+display: block;
+float: none;
+background:transparent;
+border: 0;
+}
+
+li:hover ul, li.over ul{ display: block;
+}
