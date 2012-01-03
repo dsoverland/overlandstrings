@@ -1,32 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>OverlandStrings: Home</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<meta name="description" content="OverlandStrings.com - communication between teachers and students.">
-<meta name="keywords" content="overland, overlandstrings, overland strings, doug overland, etta overland, minnesota, mn, violin, viola, cello, orchestra, instrument, lessons, recital, teaching, teacher, music">
-<script type="text/javascript">
-startList = function() {
-if (document.all&&document.getElementById) {
-navRoot = document.getElementById("nav");
-for (i=0; i<navRoot.childNodes.length; i++) {
-node = navRoot.childNodes[i];
-if (node.nodeName=="LI") {
-node.onmouseover=function() {
-this.className+=" over";
-  }
-  node.onmouseout=function() {
-  this.className=this.className.replace(" over", "");
-   }
-   }
-  }
- }
-}
-window.onload=startList;
-</script>
-</head>
-<body>
     <div id="container">
       <div id="image"><img width="757" border="0" height="281" src="images/main.jpg"></div>
       <div id="menu">
@@ -62,16 +33,3 @@ window.onload=startList;
         </ul>
 </div>
 
-<div id="content">
-<table class="content"><tbody><tr><td width="100%" class="content">
-
-
-
-<br>
-</td></tr></tbody></table>
-<div class="bottom">Copyright &copy; 2003-2005 OverlandStrings.com &nbsp;&nbsp;|&nbsp;&nbsp; Designed by <a class="bottom" href="http://www.plisher.org/design">Sonia Kharkar</a>
-</div>
-</div>
-</div>
-</body>
-</html>
